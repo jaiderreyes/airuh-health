@@ -1,0 +1,30 @@
+# Variables de entorno — NUNCA subir
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datos clínicos reales — NUNCA subir
+*.csv
+*.xlsx
+data/real/
+patients/
+
+# Logs
+*.log
+logs/
